@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Form</title>
+<link href="css/style.css">
+</head>
+<body>
+	<div>
+		<div>
+			<div>
+				<div style="float:left;">
+					<h3>Registration Form</h3>
+					<form id="registerForm" name="registerForm" >
+  						<label for="fname">First name:</label><br>
+  						<input type="text" id="fname" name="fname" value="John"><br>
+ 				   	 	<label for="lname">Last name:</label><br>
+  						<input type="text" id="lname" name="lname" value="Doe"><br>
+  						<label for="age">Age:</label><br>
+  						<input type="text" id="age" name="age" value="18"><br><br>
+  						<input id="singleFileUploadInput" type="file" name="file" required /><br><br>
+						<button type="submit">Submit</button><br>
+					</form> 
+				</div>
+				<div style="float:left;">
+					<div id="studentUploadError"></div>
+					<div id="studentUploadSuccess"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="/js/main.js"></script>
+</body>
+</html>
